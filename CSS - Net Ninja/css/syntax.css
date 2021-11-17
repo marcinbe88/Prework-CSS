@@ -1,0 +1,80 @@
+/***********************************************
+*
+* Author: Marcin Bejger
+* Date: 14.11.2021
+*
+***********************************************/
+
+
+
+
+
+/*
+CSS LESSON 17:
+
+#all-articles h2 + p{
+    color:green;
+}
+_____________________________________
+CSS LESSON 18:
+span[class~="deck"]{
+    color: purple;
+}
+
+div[id]{
+    background: grey;
+}
+
+a[href$="pdf"]{
+    color:red;
+}
+
+a[href^="http"]{
+    color:pink ;
+}
+______________________________________
+CSS LESSON 19:
+a:hover{
+    color: pink;
+}
+
+#main-content:hover{
+    background: red;
+}
+
+______________________________________
+CSS LESSON 20:
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: orange;
+}
+
+a.visited{
+    color: purple;
+}
+_____________________________________
+CSS LESSON 21:
+article p:first-child{
+    font-weight: bold;
+}
+
+article p:last-child{
+    color:red;
+}
+_____________________________________
+CSS LESSON 22: 
+article p:first-of-type{
+    font-weight: bold;
+}
+
+article p:last-of-type{
+    color:red;
+}
+______________________________________
+CSS LESSON 23: 
+
+
+*/
