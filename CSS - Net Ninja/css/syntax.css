@@ -5,6 +5,16 @@
 *
 ***********************************************/
 
+.static-width{
+    width: 500px;
+    height: 500px;
+    background: url(https://www.racepix.pl/product_category_imgs/product_category_img-37.jpg?t=1637432436)
+    no-repeat top center;
+    background-color: khaki;
+    background-size: 200px;
+}
+
+
 
 
 /*
@@ -239,7 +249,169 @@ CSS LESSON 36:
 }
 _________________________________________________
 CSS LESSON 37: 
+.box{
+    margin: 30px auto;
+    padding: 30px 20px 10px 15px;
+    border: 10px solid #000;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+}
+_________________________________________________
+CSS LESSON 38: 
+.box{
+    margin: 30px;
+    padding: 30px 20%;
+    border: 10px solid #000;
+    width: 50%;
+    text-align: center;
+}
+_______________________________________________
+CSS LESSON 39: 
+.box{
+    padding: 20px;
+    border: 10px solid #000;
+}
 
+.small{
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+_______________________________________________
+CSS LESSON 40: 
+.box{
+    padding: 20px;
+    margin: 20px;
+    float: left;
+    border: black solid 10px;
+}
+
+.dashed{
+    border: 10px blue dashed;
+}
+
+.dotted{
+    border: 10px blue dotted;
+}
+
+.double{
+    border: 10px blue double;
+}
+
+.groove{
+    border: 10px blue groove;
+}
+
+.inset{
+    border: 10px blue inset;
+}
+
+.outset{
+    border: 10px blue outset;
+}
+
+.ridge{
+    border: 10px blue ridge;
+}
+
+.solid{
+    border: 10px blue solid;
+}
+____________________________________________
+CSS LESSON 41: 
+.block{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+}
+
+.inline{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    display: inline-block;
+}
+
+a{
+    padding: 50px;
+    margin: 10px;
+    background-color:#ccc;
+    border: 1px solid #aaa;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+}
+___________________________________________
+CSS LESSON 42: 
+#main-content div{
+    background-color: #ccc;
+    margin: 0 0 20px 0;
+}
+
+.static-width{
+    width: 300px;
+    height: 100px;
+}
+
+.percentage-width{
+    width: 70%;
+    height: 50px;
+}
+
+.inline-block{
+    width: 40%;
+    display: inline-block;
+}
+____________________________________________
+CSS LESSON 43: 
+#main-content div{
+    background-color: #ccc;
+    margin: 0 0 20px 0;
+}
+
+.static-width{
+    padding:10px;
+    width: 300px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+.percentage-width{
+    width: 70%;
+    height: 50px;
+    border-radius: 10px 20px;
+}
+
+.inline-block{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+_______________________________________________
+CSS LESSON 44: 
+.static-width{
+    width: 500px;
+    height: 500px;
+    background-color: hotpink;
+    background-image: url(https://www.racepix.pl/product_category_imgs/product_category_img-37.jpg?t=1637432436);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+_________________________________________________
+CSS LESSON 45: 
+.static-width{
+    width: 500px;
+    height: 500px;
+    background: url(https://www.racepix.pl/product_category_imgs/product_category_img-37.jpg?t=1637432436)
+    no-repeat top center;
+    background-color: khaki;
+    background-size: 200px;
+}
+___________________________________________________
+CSS LESSON 46: 
 
 
 
