@@ -2,4 +2,6 @@
 
 Practicing Basics of CSS from The Net Ninja channel on YouTube
 
-**This task is ongoing, not finished yet**
+** This task is FINISHED **
+
+I practiced some CSS selectors and note them down in a style.css file.
