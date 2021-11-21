@@ -5,15 +5,32 @@
 *
 ***********************************************/
 
-.static-width{
-    width: 500px;
-    height: 500px;
-    background: url(https://www.racepix.pl/product_category_imgs/product_category_img-37.jpg?t=1637432436)
-    no-repeat top center;
-    background-color: khaki;
-    background-size: 200px;
+
+.button{
+    display: block;
+    width: 120px;
+    padding: 12px;
+    border: 1px solid #77aaaa;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    background: #aadddd;
+    background: -moz-linear-gradient(top, #aadddd 0%, #c758b4 100%);
+    background: -webkit-linear-gradient(top, #aadddd 0%, #c758b4 100%);
+    background: linear-gradient(top, #aadddd 0%, #c758b4 100%);
+    box-shadow: 5px 5px 10px 5px rgba(206, 57, 57, 0.7);
 }
 
+.button:hover{
+    background: #77aaaa;
+    background: -moz-linear-gradient(bottom, #aadddd 0%, #c758b4 100%);
+    background: -webkit-linear-gradient(bottom, #aadddd 0%, #c758b4 100%);
+    background: linear-gradient(bottom, #aadddd 0%, #c758b4 100%);
+}
 
 
 
@@ -412,6 +429,96 @@ CSS LESSON 45:
 }
 ___________________________________________________
 CSS LESSON 46: 
+#banner{
+    width: 100%;
+    height: 300px;
+    background-color:#606060;
+    background-image: url(https://www.racepix.pl/product_category_imgs/product_category_img-37.jpg?t=1637432436), 
+    url(https://sprint-rowery.pl/media/catalog/product/cache/384791b6b20959df5b424e91f5ae26e1/r/o/rower_g_rski_trek_marlin_5_2020_czarny__1__3_7.jpg);
+    background-repeat: no-repeat;
+    background-position: center, top left;
+    background-size: 50%, 300px;
+}
+_______________________________________________________
+CSS LESSON 47: 
+#banner{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(250, 150, 60)
+}
+_______________________________________________________
+CSS LESSON 48: 
+#circle{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: rgb(200, 200, 100);
+    border-radius: 200px;
+    top: 50px;
+    left: 50px;
+    opacity: 1;
+    text-align: center;
+}
+
+#circle-2{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: rgb(200, 100, 200);
+    border-radius: 200px;
+    top: 250px;
+    left: 150px;
+    opacity: 0.3;
+    text-align: center;
+}
+
+#circle-3{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: rgba(100, 200, 200, 0.1);
+    border-radius: 200px;
+    top: 50px;
+    left: 250px;
+    text-align: center;
+}
+___________________________________________________________
+CSS LESSON 49: 
+.button{
+    display: block;
+    width: 120px;
+    padding: 12px;
+    border: 1px solid #77aaaa;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    background: #aadddd;
+    background: -moz-linear-gradient(top, #aadddd 0%, #c758b4 100%);
+    background: -webkit-linear-gradient(top, #aadddd 0%, #c758b4 100%);
+    background: linear-gradient(top, #aadddd 0%, #c758b4 100%);
+
+}
+
+.button:hover{
+    background: #77aaaa;
+    background: -moz-linear-gradient(bottom, #aadddd 0%, #c758b4 100%);
+    background: -webkit-linear-gradient(bottom, #aadddd 0%, #c758b4 100%);
+    background: linear-gradient(bottom, #aadddd 0%, #c758b4 100%);
+}
+______________________________________________________________
+CSS LESSON 50: 
+.button{
+box-shadow: 5px 5px 10px 5px rgba(206, 57, 57, 0.7);
+}
+_______________________________________________________________
+CSS LESSON 51: 
+www.caniuse.com
+_______________________________________________________________
+CSS LESSON 52: 
 
 
 
